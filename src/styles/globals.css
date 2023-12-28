@@ -1,0 +1,8 @@
+/* components */
+@import './components/scrollbar.css';
+
+/* vendors */
+@import './vendors/tailwind.css';
+
+/* base */
+@import './base/base.css';
