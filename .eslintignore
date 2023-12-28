@@ -1,0 +1,11 @@
+!**/.eslintrc*
+node_modules*
+.yarn*
+dist
+*.svg
+*.ico
+*.json
+.gitignore
+*.md
+*.log
+*.lock
