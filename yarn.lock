@@ -617,7 +617,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.0.1":
+"autoprefixer@npm:^10.4.16":
   version: 10.4.16
   resolution: "autoprefixer@npm:10.4.16"
   dependencies:
@@ -2634,15 +2634,15 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nextjs-boilerplate@workspace:."
   dependencies:
-    autoprefixer: "npm:^10.0.1"
+    autoprefixer: "npm:^10.4.16"
     eslint: "npm:^8"
     eslint-config-next: "npm:14.0.4"
     next: "npm:14.0.4"
-    postcss: "npm:^8"
+    postcss: "npm:^8.4.32"
     prettier: "npm:^3.1.1"
     react: "npm:^18"
     react-dom: "npm:^18"
-    tailwindcss: "npm:^3.3.0"
+    tailwindcss: "npm:^3.4.0"
   dependenciesMeta:
     prettier@3.1.1:
       unplugged: true
@@ -3009,7 +3009,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8, postcss@npm:^8.4.23":
+"postcss@npm:^8.4.23, postcss@npm:^8.4.32":
   version: 8.4.32
   resolution: "postcss@npm:8.4.32"
   dependencies:
@@ -3584,7 +3584,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:^3.3.0":
+"tailwindcss@npm:^3.4.0":
   version: 3.4.0
   resolution: "tailwindcss@npm:3.4.0"
   dependencies:

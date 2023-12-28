@@ -1,7 +1,15 @@
 {
     "compilerOptions": {
         "paths": {
-            "@/*": ["./src/*"]
+            "@app/*": ["./src/app/*"],
+            "@partials/*": ["./src/components/partials/*"],
+            "@templates/*": ["./src/components/templates/*"],
+            "@organisms/*": ["./src/components/organisms/*"],
+            "@molecules/*": ["./src/components/molecules/*"],
+            "@atoms/*": ["./src/components/atoms/*"],
+            "@core/*": ["./src/core/*"],
+            "@styles/*": ["./src/styles/*"],
+            "@public/*": ["./public/*"]
         }
     }
 }
