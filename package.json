@@ -13,7 +13,8 @@
         "build": "next build",
         "start": "next start",
         "lint": "eslint . --max-warnings=0",
-        "prettier": "prettier --write ."
+        "prettier": "prettier --write .",
+        "prepare": "husky install"
     },
     "dependencies": {
         "next": "14.0.4",
@@ -21,9 +22,12 @@
         "react-dom": "^18"
     },
     "devDependencies": {
+        "@commitlint/cli": "^18.4.3",
+        "@commitlint/config-conventional": "^18.4.3",
         "autoprefixer": "^10.4.16",
         "eslint": "^8",
         "eslint-config-next": "14.0.4",
+        "husky": "^8.0.3",
         "postcss": "^8.4.32",
         "prettier": "^3.1.1",
         "tailwindcss": "^3.4.0"
