@@ -2,6 +2,12 @@
     "name": "nextjs-boilerplate",
     "version": "0.1.0",
     "private": true,
+    "engines": {
+        "node": ">=20.10.0",
+        "yarn": ">=4.0.2",
+        "npm": "please use yarn v4",
+        "pnpm": "please use yarn v4"
+    },
     "scripts": {
         "dev": "next dev",
         "build": "next build",
