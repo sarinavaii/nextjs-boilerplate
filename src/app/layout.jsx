@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
             <head>
                 <ColorSchemeScript />
             </head>
-            <body className='bg-black'>
+            <body>
                 <RootProvider>{children}</RootProvider>
             </body>
         </html>

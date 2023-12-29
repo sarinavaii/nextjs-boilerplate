@@ -1,9 +1,5 @@
-import { Button } from '@mantine/core';
+import { HomeTemplate } from '@templates/HomeTemplate';
 
 export default function Home() {
-    return (
-        <div className='h-screen flex items-center justify-center'>
-            <Button>Hello there, friend!</Button>
-        </div>
-    );
+    return <HomeTemplate />;
 }
